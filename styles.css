@@ -1,0 +1,140 @@
+/* Estilos generales */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+p {
+	margin-bottom: 15px;
+	text-align: justify;
+}
+
+/* Estilos de enlaces */
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Estilos de contenedores */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Estilos de botón de contacto */
+.contact-btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+	background-color: #0056b3;
+}
+
+/* Estilos de separador */
+.separator {
+	height: 1px;
+	background-color: #ccc;
+	margin: 20px 0;
+}
+
+/* Estilos de encabezado */
+header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+header h1 {
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+
+header p {
+	font-size: 16px;
+	color: #888;
+}
+
+/* Estilos de pie de página */
+footer {
+	text-align: center;
+	margin-top: 40px;
+	color: #888;
+	font-size: 14px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 767px) {
+	body {
+		margin: 10px;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	h2 {
+		font-size: 18px;
+		margin-top: 15px;
+	}
+
+	h3 {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+
+	.container {
+		padding: 0 10px;
+	}
+
+	header h1 {
+		font-size: 24px;
+		margin-bottom: 5px;
+	}
+
+	header p {
+		font-size: 14px;
+	}
+}
